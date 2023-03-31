@@ -6,7 +6,7 @@ const HomeHeader = () => {
       <div className="flex space-x-4 items-center">
         <Link href={'https://mail.google.com'} className='hover:underline'>Gmail</Link>
         <Link href={'https://image.google.com'} className='hover:underline'>Images</Link>
-        <TbGridDots className="bg-transparent hover:bg-gray-200 rounded-full text-4xl p-2 cursor-pointer"/>
+        <TbGridDots className="header-icon"/>
         <button className="bg-blue-500 text-white rounded-md py-2 px-6 font-medium hover:brightness-105 hover:shadow-md transition-shadow">Sign in</button>
       </div>
     </header>
