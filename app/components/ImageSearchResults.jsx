@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Pagination from './Pagination'
 
 const ImageSearchResults = ({results}) => {
   return (
@@ -20,6 +21,9 @@ const ImageSearchResults = ({results}) => {
                     </div>
                 </div>
             ))}
+        </div>
+        <div className='ml-16'>
+            <Pagination/>
         </div>
     </div>
   )
